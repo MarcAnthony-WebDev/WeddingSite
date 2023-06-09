@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './Styles/App.css';
+import { Parallax } from 'react-parallax';
+import img from './Images/IMG_8044.jpg';
+
+//components
+import NavBar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Parallax strength={600} bgImage={img} bgImageAlt='picture of couple'>
+        <div className='header'>
+          <NavBar />
+          <div className='text-content'>Marcanthony & Marissa</div>
+        </div>
+      </Parallax>
+
+      <div className='content'></div>
     </div>
   );
 }
