@@ -1,6 +1,6 @@
 import './Styles/App.css';
 import { Parallax } from 'react-parallax';
-import img from './Images/IMG_8044.jpg';
+import img from './Images/SitePhotos/IMG_8073.JPG';
 
 //components
 import NavBar from './Components/Navbar';
@@ -8,7 +8,16 @@ import NavBar from './Components/Navbar';
 function App() {
   return (
     <div className='App'>
-      <Parallax strength={600} bgImage={img} bgImageAlt='picture of couple'>
+      <Parallax
+        style={{
+          backgroundSize: '30%',
+          backgroundRepeat: 'no-repeat',
+        }}
+        strength={600}
+        bgImageSize={'30%'}
+        bgImage={img}
+        bgImageAlt='picture of couple'
+      >
         <div className='header'>
           <NavBar />
           <div className='text-content'>Marcanthony & Marissa</div>
