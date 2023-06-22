@@ -1,0 +1,115 @@
+h2 {
+  text-align: center;
+  font-family: 'Forum';
+  font-size: 4rem;
+  grid-row: 1;
+  grid-column: 6/12;
+}
+
+h2 span {
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: 'Forum';
+  font-size: 5rem;
+}
+
+.main-container {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: auto repeat(4, 1fr);
+  grid-gap: 4rem;
+}
+
+.section-img {
+  /* grid-area: 2/4/4/8; */
+  height: 30rem;
+}
+
+.section-1 {
+  display: grid;
+}
+
+/* .section-1 .section-img {
+  grid-column: 2/4;
+  grid-row: 4/6;
+} */
+
+.img-container1 {
+  grid-column: 2/4;
+  grid-row: 2/6;
+}
+
+.img-container1 img {
+  border-radius: 8px;
+  height: 50rem;
+  transition: 0.3s all;
+}
+
+.img-container1 img:hover {
+  transform: scale(1.05);
+}
+
+.text-container1 {
+  text-align: center;
+  grid-column: 12/14;
+  grid-row: 2/3;
+}
+
+.text-container1 p {
+  margin: 1rem 0;
+
+  width: 30rem;
+  font-family: 'Lato';
+  font-size: 2.5rem;
+}
+
+.img-container2 {
+  grid-column: 10/12;
+  grid-row: 3/4;
+  transition: 0.3s all;
+  /* transform: translateY(-10rem); */
+}
+
+.img-container2:hover {
+  transform: scale(1.05);
+}
+
+.img-container2 img {
+  border-radius: 8px;
+  height: 40rem;
+  transition: 0.3s all;
+}
+
+.text-container2 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+
+.text-container2 p {
+  margin: 1rem 0;
+
+  width: 30rem;
+  font-family: 'Lato';
+  font-size: 2.5rem;
+}
+
+.img-container3 {
+  grid-column: 3/5;
+  grid-row: 10/12;
+}
+
+.text-container3 {
+  grid-column: 10/12;
+  grid-row: 6/8;
+}
+
+/* .section-1 .img-container {
+  background-image: url(../Images/SitePhotos/IMG_7978.JPG);
+  height: 30rem;
+  width: 30rem;
+} */

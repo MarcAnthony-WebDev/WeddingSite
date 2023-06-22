@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MediaQuery from 'react-responsive';
 import { Link } from 'react-router-dom';
 
-import styles from './navBar.module.css';
+import styles from './NavBar.module.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import img from '../Images/SitePhotos/M&M Logo.png';
 
