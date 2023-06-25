@@ -21,7 +21,7 @@ h3 {
   margin: 4rem 0;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: auto repeat(4, 1fr);
+  grid-template-rows: auto repeat(2, 50rem) auto;
   grid-gap: 4rem;
 }
 
@@ -56,6 +56,9 @@ h3 {
 
 .text-container1 {
   text-align: center;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
   grid-column: 12/14;
   grid-row: 2/3;
 }
@@ -87,7 +90,8 @@ h3 {
 
 .text-container2 {
   grid-column: 3/5;
-  grid-row: 3/4;
+  grid-row: 3;
+  align-self: center;
 }
 
 .text-container2 p {
@@ -106,6 +110,16 @@ h3 {
 .text-container3 {
   grid-column: 10/12;
   grid-row: 6/8;
+}
+
+.rsvpImgContainer {
+  grid-row: 4/5;
+  grid-column: 2/14;
+}
+
+.main-container > :last-child {
+  grid-row: 4;
+  grid-column: 2/16;
 }
 
 /* .section-1 .img-container {

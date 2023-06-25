@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import styles from './NavBar.module.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import img from '../Images/SitePhotos/M&M Logo.png';
+import RsvpButton from './Button';
 
 /* POTENTIAL COLORS?  
 SAGE -> #C1D0B5
@@ -108,9 +109,10 @@ const NavBar = (props) => {
             </Link>
           </li>
           <li>
-            <button className={btnClasses} type='button'>
+            <RsvpButton size='large' />
+            {/* <button className={btnClasses} type='button'>
               RSVP
-            </button>
+            </button> */}
           </li>
         </ul>
         <MediaQuery maxWidth={850}>

@@ -4,21 +4,21 @@ import img from '../Images/SitePhotos/IMG_8185.JPG';
 import NavBar from './NavBar';
 import '../Styles/App.css';
 
-const ParallaxIMG = () => {
+const ParallaxIMG = (props) => {
   return (
     <Parallax
       style={{
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
       }}
-      strength={200}
+      strength={props.strength}
       bgImageSize={'30%'}
-      bgImage={img}
+      bgImage={props.img}
       bgImageAlt='picture of couple'
     >
       <div className='header'>
         {/* <NavBar /> */}
-        <div className='text-content'>Marcanthony & Marissa</div>
+        <div className='text-content'>{props.content}</div>
       </div>
     </Parallax>
   );
