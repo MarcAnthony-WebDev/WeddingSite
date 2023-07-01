@@ -1,5 +1,36 @@
 .card {
-  height: 10rem;
-  width: 10rem;
-  background-color: black;
+  height: auto;
+  width: 25rem;
+  background-color: var(--main-secondary-color);
+  margin: 3rem 0;
+  padding: 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 20px 10px 1px rgb(0, 0, 0, 0.2);
+
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  border-radius: 10px;
+
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: translateY(5px);
+}
+
+.card * {
+  margin: 1rem;
+}
+
+.role {
+  font-size: 1.4rem;
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-size: 2rem;
 }

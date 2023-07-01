@@ -20,10 +20,11 @@ const WeddingParty = (props) => {
   };
 
   return (
-    <div className=''>
+    <div className='contacts_main'>
       <NavBar />
 
       <div className={styles['contacts_container']}>
+        <p className={styles['contacts_heading']}>Meet the Wedding Party</p>
         {contacts.map(createCard)}
       </div>
       <Footer />

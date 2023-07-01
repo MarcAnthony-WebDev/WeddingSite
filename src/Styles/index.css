@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: rgba(246, 246, 246, 0.75);
+  --main-primary-color: #c1d0b5;
+  --main-secondary-color: #f7e7cf;
+
+  --main-text-color: #474747;
+}
+
 html {
   font-size: 62.5%; /* 1rem === 10px */
+  background-color: var(--main-bg-color);
 }
 
 h1 {

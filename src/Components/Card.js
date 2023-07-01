@@ -1,14 +1,16 @@
 import React from 'react';
 import Avatar from './Avatar';
 
+import styles from './Card.module.css';
+
 const Card = (props) => {
   return (
-    <div className='card'>
-      <div className='top'>
+    <div className={styles['card']}>
+      <div className={styles['top']}>
         <Avatar img={props.img} />
-        <h2>{props.name}</h2>
-        <p>{props.role}</p>
-        <p></p>
+        <hr />
+        <h3>{props.name}</h3>
+        <p className={styles['role']}>{props.role}</p>
       </div>
       <div className='bottom'></div>
     </div>

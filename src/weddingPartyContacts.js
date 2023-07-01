@@ -4,7 +4,7 @@ const contacts = [
     name: 'Enrico Tumminello',
     role: 'Best Man',
     imgURL:
-      'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/353452189_6652536574797856_4715651605720253279_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3i3Upv1JCyIAX_04I9y&_nc_ht=scontent-lga3-2.xx&oh=00_AfApl5AQ-UYE_q7hQR0P1QcVbHN9oDkbpKK8zmoCCwyu3g&oe=649D143C',
+      'https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/353452189_6652536574797856_4715651605720253279_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EyVRTZaMD0sAX8JbPVa&_nc_ht=scontent-lga3-2.xx&oh=00_AfDidPJIII_0wPAbVaQzpB5tQgG6bfQemN5YP_Azp89svg&oe=64A302FC',
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const contacts = [
     name: 'Kari Tumminello',
     role: 'Bridesmaid',
     imgURL:
-      'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/287639141_500292418535149_8129703197939656096_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=174925&_nc_ohc=i4x8Mdx8j8IAX9gIVFR&_nc_ht=scontent-lga3-1.xx&oh=00_AfDZq7-zhglsDL5-geu0xgNgsAhZZqO1Xa-moQq0pG11vQ&oe=649CACC8',
+      'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/287639141_500292418535149_8129703197939656096_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=174925&_nc_ohc=58aVkQnQKkQAX_OkWVX&_nc_ht=scontent-lga3-1.xx&oh=00_AfCPdBZRWGAQKDWuwdHULAspPt2DLUitSds7Lfpj-kRiIg&oe=64A29B88',
   },
 ];
 

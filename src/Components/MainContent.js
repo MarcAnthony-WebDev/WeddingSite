@@ -62,11 +62,7 @@ const MainContent = (props) => {
         </p>
       </div>
 
-      <ParallaxIMG
-        content={<RsvpButton style={{ fontSize: '5rem' }} />}
-        strength={200}
-        img={bottomImg}
-      />
+      <ParallaxIMG content={<RsvpButton />} strength={200} img={bottomImg} />
 
       {/* </div> */}
       {/* <div className='section-3'> */}
