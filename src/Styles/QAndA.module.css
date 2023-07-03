@@ -1,0 +1,52 @@
+.contentWrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.accordion {
+  width: 60rem;
+}
+
+.item {
+  background: var(--main-secondary-color);
+  margin-bottom: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: var(--main-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  font-family: 'Forum';
+
+  font-size: 2rem;
+}
+.iconActive {
+  transform: rotate(0deg);
+}
+
+.iconInactive {
+  transform: rotate(405deg);
+}
+
+.content {
+  color: var(--main-text-color);
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.content.show {
+  height: auto;
+  max-height: 999rem;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

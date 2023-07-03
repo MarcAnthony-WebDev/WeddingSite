@@ -10,15 +10,18 @@ const ParallaxIMG = (props) => {
       style={{
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
+        height: props.height,
+        objectFit: 'contain',
+        zIndex: '-1',
       }}
       strength={props.strength}
-      bgImageSize={'30%'}
       bgImage={props.img}
-      bgImageAlt='picture of couple'
     >
       <div className='header'>
         {/* <NavBar /> */}
-        <div className='text-content'>{props.content}</div>
+        <div style={props.styles} className='text-content'>
+          {props.content}
+        </div>
       </div>
     </Parallax>
   );

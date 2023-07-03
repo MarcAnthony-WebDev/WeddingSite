@@ -17,7 +17,7 @@ h3 {
   height: 100%;
   background-color: var(--main-bg-color);
   display: grid;
-  padding: 10rem 0;
+  padding: 12rem 0;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -35,7 +35,7 @@ h3 {
 .contacts_heading {
   grid-row: 1;
   grid-column: 1/ -1;
-  font-size: 3rem;
+  font-size: var(--heading-font-size);
   font-family: 'Forum', sans-serif;
 }
 

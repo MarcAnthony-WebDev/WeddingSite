@@ -6,10 +6,11 @@
 
 :root {
   --main-bg-color: rgba(246, 246, 246, 0.75);
-  --main-primary-color: #c1d0b5;
+  --main-primary-color: rgb(192, 207, 180);
   --main-secondary-color: #f7e7cf;
 
   --main-text-color: #474747;
+  --heading-font-size: 4rem;
 }
 
 html {

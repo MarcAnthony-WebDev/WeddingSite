@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './PhotoGallery.module.css';
+import photoAlbum from '../Pages/Photos.js';
 
 import { ChevronLeft, ChevronRight, Close } from '@mui/icons-material';
 
@@ -58,15 +59,28 @@ const PhotoGallery = ({ photoAlbum }) => {
 
       <div>
         <div className={styles['galleryWrap']}>
+          <p className={styles.heading}>Photo Gallery</p>
           {photoAlbum &&
             photoAlbum.map((slide, index) => {
               return (
                 <div
-                  className={styles['single']}
+                  className={
+                    photoAlbum[index].doubleHeight === true
+                      ? `${styles.single} ${styles.doubleHeight}`
+                      : `${styles.single}`
+                  }
                   key={index}
                   onClick={() => handleOpenModal(index)}
                 >
-                  <img src={slide.img} alt='' />
+                  <img
+                    // style={
+                    //   photoAlbum[index].doubleHeight === true
+                    //     ? { objectFit: 'contain' }
+                    //     : { objectFit: 'cover' }
+                    // }
+                    src={slide.img}
+                    alt=''
+                  />
                 </div>
               );
             })}

@@ -15,13 +15,14 @@ GOLD -> B08A50
 
 //classes
 const logoClasses = ` ${styles['logo']}`;
-
 const btnClasses = `${styles['btn']} ${styles['nav-link']}`;
 
+//Component
 const NavBar = (props) => {
   //STATE
   const [isActive, setIsActive] = useState(true);
   const [width, setWidth] = useState(window.innerWidth);
+  const [navColor, setNavColor] = useState(false);
   // const [height, setHeight] = useState(window.innerHeight);
 
   const updateWidth = () => {
@@ -37,6 +38,16 @@ const NavBar = (props) => {
     window.addEventListener('resize', updateWidth);
     return () => window.removeEventListener('resize', updateWidth);
   });
+
+  const changeColor = () => {
+    if (window.scrollY >= 200) {
+      setNavColor(true);
+    } else {
+      setNavColor(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeColor, true);
 
   //handlers
   const handleClick = (e) => {
@@ -60,7 +71,11 @@ const NavBar = (props) => {
   };
 
   return (
-    <nav className={styles['nav']}>
+    <nav
+      className={
+        navColor ? `${styles.nav} ${styles.navActive}` : `${styles.nav}`
+      }
+    >
       <div className='nav-logo'>
         <Link className={logoClasses} to='/'>
           <img

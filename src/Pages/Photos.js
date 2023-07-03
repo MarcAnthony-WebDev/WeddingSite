@@ -2,6 +2,7 @@ import React from 'react';
 import PhotoGallery from '../Components/PhotoGallery';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
+import ParallaxIMG from '../Components/Parallax';
 
 import img1 from '../Images/PhotosPage/IMG_7764.JPG';
 import img2 from '../Images/PhotosPage/IMG_7810.JPG';
@@ -21,53 +22,66 @@ import { Photo } from '@mui/icons-material';
 const photoAlbum = [
   {
     img: img1,
+    doubleHeight: false,
   },
 
   {
     img: img2,
+    doubleHeight: false,
   },
   {
-    img: img3,
+    img: img10,
+    doubleHeight: true,
   },
 
   {
     img: img4,
-  },
-
-  {
-    img: img5,
-  },
-
-  {
-    img: img6,
-  },
-
-  {
-    img: img7,
-  },
-
-  {
-    img: img8,
-  },
-
-  {
-    img: img9,
-  },
-
-  {
-    img: img10,
-  },
-
-  {
-    img: img11,
-  },
-
-  {
-    img: img12,
+    doubleHeight: false,
   },
 
   {
     img: img13,
+    doubleHeight: true,
+  },
+
+  {
+    img: img6,
+    doubleHeight: false,
+  },
+
+  {
+    img: img7,
+    doubleHeight: false,
+  },
+
+  {
+    img: img8,
+    doubleHeight: false,
+  },
+
+  {
+    img: img9,
+    doubleHeight: false,
+  },
+
+  {
+    img: img3,
+    doubleHeight: false,
+  },
+
+  {
+    img: img11,
+    doubleHeight: true,
+  },
+
+  {
+    img: img12,
+    doubleHeight: false,
+  },
+
+  {
+    img: img5,
+    doubleHeight: false,
   },
 ];
 
@@ -75,6 +89,7 @@ const Photos = () => {
   return (
     <div className=''>
       <NavBar />
+      <ParallaxIMG strength={100} content={'Photo Gallery'} img={img5} />
       <div className='photos_gallery'>
         <PhotoGallery photoAlbum={photoAlbum} />
       </div>

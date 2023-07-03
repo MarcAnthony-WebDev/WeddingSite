@@ -6,7 +6,7 @@
   width: 100%;
   font-weight: 700;
   z-index: 2;
-  background-color: #c1d0b5;
+  background-color: rgb(192, 207, 180, 0.3);
   font-family: 'Lato', sans-serif;
   font-size: 1.7rem;
   display: flex;
@@ -14,9 +14,11 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  transition: 1s all;
 }
 
-.nav-logo {
+.navActive {
+  background-color: rgb(192, 207, 180, 1);
 }
 
 .nav-list {
@@ -34,7 +36,8 @@
 }
 
 .nav-link {
-  color: white;
+  font-family: 'forum', sans-serif;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   padding: 0.5rem;

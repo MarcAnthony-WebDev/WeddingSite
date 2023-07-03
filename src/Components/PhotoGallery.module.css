@@ -1,20 +1,29 @@
 .galleryWrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   gap: 1.5rem;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   /* max-width: 62rem; */
   margin: 0 auto;
 
   height: auto;
-  padding: 20rem 0 10rem 0;
+  padding: 12rem 0;
 }
 
-.galleryWrap .single {
+.single {
   width: 40rem;
   height: 30rem;
   cursor: pointer;
+}
+
+.heading {
+  flex-basis: 100%;
+  margin-bottom: 4rem;
+  font-size: var(--heading-font-size);
+  font-family: 'Forum', sans-serif;
+  color: var(--main-text-color);
+  text-align: center;
 }
 
 .galleryWrap .single img {
@@ -25,7 +34,11 @@
 
   transition: 0.2s all;
 
-  /* margin: 0 2rem; */
+  margin: 0 2rem;
+}
+
+.doubleHeight {
+  height: 50rem;
 }
 
 .galleryWrap .single img:hover {
