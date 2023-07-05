@@ -1,0 +1,44 @@
+.registryContainer {
+  background-image: url(../Images/PhotosPage/IMG_8197.JPG);
+  height: 60vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 8rem 0;
+  font-family: 'Forum', sans-serif;
+  font-weight: 300;
+  object-fit: fill;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.registryContent p {
+  font-family: 'Forum';
+  max-width: 50rem;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.registryContainer a {
+  font-size: 1.8rem;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  border: 1px solid var(--main-secondary-color);
+  padding: 1rem 2rem;
+  color: var(--main-secondary-color);
+
+  transition: 0.3s all;
+  border-radius: 0.3rem;
+}
+
+.registryContainer a:hover {
+  background-color: var(--main-secondary-color);
+  color: #fff;
+}

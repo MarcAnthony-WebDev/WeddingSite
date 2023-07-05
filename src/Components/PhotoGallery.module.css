@@ -119,4 +119,8 @@
   .sliderWrap .btnNext {
     font-size: 3rem;
   }
+
+  .galleryWrap .single {
+    width: calc(85% - 0.5rem);
+  }
 }

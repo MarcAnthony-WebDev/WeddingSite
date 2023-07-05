@@ -24,12 +24,12 @@ const WeddingParty = (props) => {
   return (
     <div className='contacts_main'>
       <NavBar />
-      {/* <ParallaxIMG
+      <ParallaxIMG
         content={'meet the wedding party'}
         strength={650}
         img={img}
         height={'60vh'}
-      /> */}
+      />
 
       <div className={styles['contacts_container']}>
         <p className={styles['contacts_heading']}>Meet the Wedding Party</p>
