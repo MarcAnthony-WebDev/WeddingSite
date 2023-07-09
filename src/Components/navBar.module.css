@@ -46,7 +46,7 @@
 }
 
 .nav-link:hover {
-  filter: brightness(0.8);
+  filter: brightness(0.9);
 }
 
 .logo {
@@ -91,7 +91,9 @@
   }
 
   .hamburger:hover {
-    background-color: red;
+    background-color: var(--main-secondary-color);
+    border-radius: 1rem;
+    color: white;
   }
 
   .hamburger:active {
@@ -110,6 +112,7 @@
     width: 100%;
     flex-direction: column;
     z-index: 2;
+    padding: 1rem;
   }
 
   .nav-item:active {

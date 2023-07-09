@@ -106,7 +106,12 @@ const Photos = () => {
   return (
     <div className=''>
       <NavBar />
-      <ParallaxIMG strength={100} content={'Photo Gallery'} img={img5} />
+      <ParallaxIMG
+        strength={600}
+        content={'Photo Gallery'}
+        img={img5}
+        height={'60vh'}
+      />
       <div className='photos_gallery'>
         <PhotoGallery photoAlbum={photoAlbum} />
       </div>

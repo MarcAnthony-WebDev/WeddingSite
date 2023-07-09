@@ -26,7 +26,7 @@ const WeddingParty = (props) => {
       <NavBar />
       <ParallaxIMG
         content={'meet the wedding party'}
-        strength={650}
+        strength={600}
         img={img}
         height={'60vh'}
       />
