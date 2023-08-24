@@ -4,6 +4,7 @@ import Footer from '../Components/Footer';
 import ParallaxIMG from '../Components/Parallax';
 import styles from '../Styles/QAndA.module.css';
 import AddIcon from '@mui/icons-material/Add';
+import { Link } from 'react-router-dom';
 
 import img from '../Images/SitePhotos/IMG_7987.JPG';
 
@@ -30,11 +31,15 @@ const data = [
     question:
       'Will the ceremony and cocktail hour take place indoors or outdoors?',
     answer:
-      'Weather permitting, the ceremony and cocktail hour will be held outdoos. The reception will be held indoors but guests will have full access to the entire grounds at any time.',
+      'Weather permitting, the ceremony and cocktail hour will be held outdoors. The reception will be held indoors but guests will have full access to the entire grounds at any time.',
   },
   {
     question: 'How do I get to the wedding venue?',
-    answer: 'Link to travel page',
+    answer: (
+      <Link className={styles['link']} to='/TravelAndStay'>
+        Travel & Stay Page
+      </Link>
+    ),
   },
   {
     question: 'Is there parking available?',
@@ -75,7 +80,7 @@ const QAndA = (props) => {
       <NavBar />
       <ParallaxIMG
         strength={500}
-        height={'60vh'}
+        height={'70vh'}
         styles={{ justifyContent: 'flex-end' }}
         content={'Q&A'}
         img={img}

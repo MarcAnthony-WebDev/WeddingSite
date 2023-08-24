@@ -50,3 +50,15 @@
   max-height: 999rem;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
+
+.link {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Forum', sans-serif;
+  transition: 0.3s all;
+}
+
+.link:hover {
+  transform: scale(0.2);
+  color: rgba(0, 0, 0, 0.3);
+}

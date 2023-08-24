@@ -1,30 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './Button.module.css';
-// import Button from '@mui/material/Button';
+import Modal from './Modal';
 
 const RsvpButton = (props) => {
-  //   const btnClasses = {
-  //     color: 'white',
-  //     fontFamily: 'Lato',
-  //     background: 'transparent',
-  //     borederRadius: '4px',
-  //     fontSize: '2rem',
-  //     cursor: 'pointer',
-  //   };
-
   return (
     <div>
-      {/* <Button
-        classes={btnClasses}
-        color='secondary'
-        size={props.size}
-        variant='outlined'
+      <button
+        // style={openModal ? { display: 'block' } : { display: 'none' }}
+        className={styles['btn']}
+        type='button'
       >
-        RSVP
-      </Button> */}
-      <button className={styles['btn']} type='button'>
-        RSVP
+        <a
+          className={styles.link}
+          href='https://www.theknot.com/us/marissa-simone-and-marcanthony-tumminello-jun-2024/rsvp'
+          target='_blank'
+          rel='noreferrer'
+        >
+          RSVP
+        </a>
       </button>
     </div>
   );

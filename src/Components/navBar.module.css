@@ -79,6 +79,8 @@
   /* width: 3rem;
   height: 2.1rem; */
   cursor: pointer;
+
+  fill: var(--main-secondary-color);
 }
 
 @media (max-width: 850px) {
@@ -91,9 +93,9 @@
   }
 
   .hamburger:hover {
-    background-color: var(--main-secondary-color);
+    filter: brightness(80%);
     border-radius: 1rem;
-    color: white;
+    fill: white;
   }
 
   .hamburger:active {

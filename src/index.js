@@ -12,6 +12,7 @@ import Photos from './Pages/Photos';
 import QAndA from './Pages/QAndA';
 import Registry from './Pages/Registry';
 import WeddingParty from './Pages/WeddingParty';
+import RSVP from './Pages/RSVP';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: 'WeddingParty',
     element: <WeddingParty />,
+  },
+  {
+    path: 'RSVP',
+    element: <RSVP />,
   },
 ]);
 

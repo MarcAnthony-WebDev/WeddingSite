@@ -4,6 +4,7 @@ import img2 from '../Images/SitePhotos/IMG_7916.JPG';
 import img3 from '../Images/SitePhotos/IMG_8215.JPG';
 import bottomImg from '../Images/SitePhotos/IMG_8016.jpg';
 import RsvpButton from './Button';
+import Modal from './Modal';
 
 import ParallaxIMG from './Parallax';
 
@@ -61,8 +62,9 @@ const MainContent = (props) => {
           in the Waveny House Estate
         </p>
       </div>
-
-      <ParallaxIMG content={<RsvpButton />} strength={200} img={bottomImg} />
+      <div className={styles.imgContainer3}>
+        <ParallaxIMG height={'90vh'} strength={200} img={bottomImg} />
+      </div>
 
       {/* </div> */}
       {/* <div className='section-3'> */}

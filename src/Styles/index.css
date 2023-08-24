@@ -7,7 +7,7 @@
 :root {
   --main-bg-color: rgba(246, 246, 246, 0.75);
   --main-primary-color: rgb(192, 207, 180);
-  --main-secondary-color: #f7e7cf;
+  --main-secondary-color: rgb(247, 231, 207);
 
   --main-text-color: #474747;
   --heading-font-size: 4rem;

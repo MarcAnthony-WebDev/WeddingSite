@@ -12,10 +12,11 @@ const TravelAndStay = (props) => {
     <div className={styles.travelContainer}>
       <NavBar />
       <ParallaxIMG
+        position={'40% 60%'}
         content={'Travel & Stay'}
-        strength={100}
+        strength={600}
         img={img}
-        height='60vh'
+        height='70vh'
       />
       <div className={styles.heading}>
         <h2>How to get there</h2>

@@ -59,15 +59,17 @@ const NavBar = (props) => {
   };
 
   const styledHamburger = {
-    fontSize: '3.5rem',
+    fontSize: '4.5rem',
     position: 'absolute',
-    color: '#555',
-    top: '0.75rem',
+    top: '2.25rem',
     right: '1rem',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
     cursor: 'pointer',
+    fill: 'var(--main-secondary-color)',
+
+    transition: '.2s all',
   };
 
   return (

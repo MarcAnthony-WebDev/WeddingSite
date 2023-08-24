@@ -107,10 +107,11 @@ const Photos = () => {
     <div className=''>
       <NavBar />
       <ParallaxIMG
+        position={'55% 40%'}
         strength={600}
         content={'Photo Gallery'}
         img={img5}
-        height={'60vh'}
+        height={'80vh'}
       />
       <div className='photos_gallery'>
         <PhotoGallery photoAlbum={photoAlbum} />

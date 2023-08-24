@@ -23,7 +23,13 @@ const OurStory = (props) => {
   return (
     <div className={styles.storyContainer}>
       <NavBar />
-      <ParallaxIMG strength={200} content={'Our Story'} img={img} />
+      <ParallaxIMG
+        position={'80% 100%'}
+        strength={600}
+        height={'70vh'}
+        content={'Our Story'}
+        img={img}
+      />
       <main>
         <div className={`${styles.sidebarImage} ${styles.sidebarImageLeft}`}>
           <img className={styles.sidebarImg} src={sideBarImg} alt='sidebar' />

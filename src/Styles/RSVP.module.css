@@ -1,0 +1,30 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(75% - 1rem);
+  height: calc(100% - 2rem);
+  padding: 3rem;
+  margin: 3rem 0;
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.4);
+  background-color: var(--main-secondary-color);
+  color: var(--main-text-color);
+
+  font-size: 2rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/* .form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem;
+} */

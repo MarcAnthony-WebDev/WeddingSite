@@ -13,7 +13,19 @@ function App() {
   return (
     <div className='App'>
       <NavBar />
-      <ParallaxIMG img={img} strength={250} content={headerText} />
+      <ParallaxIMG
+        position={'20% 0%'}
+        bgImageStyle={{
+          height: '100vh',
+          width: '100vw',
+          objectFit: 'cover',
+          objectPosition: 'left',
+        }}
+        className='heroImg'
+        img={img}
+        strength={600}
+        content={headerText}
+      />
       <MainContent />
       <Footer />
 
