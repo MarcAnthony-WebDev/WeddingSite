@@ -1,26 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import img1 from '../Images/SitePhotos/IMG_7759.JPG';
 import img2 from '../Images/SitePhotos/IMG_7916.JPG';
-import img3 from '../Images/SitePhotos/IMG_8215.JPG';
+
 import bottomImg from '../Images/SitePhotos/IMG_8016.jpg';
-import RsvpButton from './Button';
-import Modal from './Modal';
+
+// import RsvpButton from './Button';
+// import { Parallax } from 'react-parallax';
 
 import ParallaxIMG from './Parallax';
 
 import styles from './MainContent.module.css';
-import { Parallax } from 'react-parallax';
 
 const MainContent = (props) => {
-  // const weddingDate = new Date();
-  // const now = new Date().toLocaleTimeString();
-  // const [days, setDays] = useState(now);
-
-  // const resetDays = () => {
-  //   let newDay = new Date().toLocaleTimeString();
-  //   setDays(newDay);
-  // };
-
   return (
     <div className={styles['main-container']}>
       <h2>

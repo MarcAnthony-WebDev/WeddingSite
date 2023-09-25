@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './PhotoGallery.module.css';
-import photoAlbum from '../Pages/Photos.js';
 
 import { ChevronLeft, ChevronRight, Close } from '@mui/icons-material';
 

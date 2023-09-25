@@ -3,9 +3,9 @@ import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import styles from '../Styles/WeddingParty.module.css';
 import contacts from '../weddingPartyContacts';
-import Avatar from '../Components/Avatar';
+// import Avatar from '../Components/Avatar';
 import Card from '../Components/Card';
-import ParallaxIMG from '../Components/Parallax';
+// import ParallaxIMG from '../Components/Parallax';
 
 const WeddingParty = (props) => {
   const createCard = (contact) => {

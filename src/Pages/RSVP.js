@@ -3,7 +3,7 @@ import React from 'react';
 import ParallaxIMG from '../Components/Parallax';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import CloseIcon from '@mui/icons-material/Close';
+
 import styles from '../Styles/RSVP.module.css';
 
 import img from '../Images/OurStoryPhotos/IMG_9506.jpg';

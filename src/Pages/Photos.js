@@ -17,7 +17,7 @@ import img10 from '../Images/PhotosPage/IMG_8029.JPG';
 import img11 from '../Images/PhotosPage/IMG_8073.JPG';
 import img12 from '../Images/PhotosPage/IMG_8145.JPG';
 import img13 from '../Images/PhotosPage/IMG_8197.JPG';
-import { Photo } from '@mui/icons-material';
+
 import img14 from '../Images/SitePhotos/IMG_9901.jpg';
 import img15 from '../Images/SitePhotos/IMG_9903.jpg';
 import img16 from '../Images/SitePhotos/IMG_9904.JPG';

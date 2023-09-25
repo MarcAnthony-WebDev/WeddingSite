@@ -1,7 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import img from '../Images/SitePhotos/IMG_8185.JPG';
-import NavBar from './NavBar';
+
 import '../Styles/App.css';
 
 const ParallaxIMG = (props) => {

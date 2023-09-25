@@ -1,9 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import ParallaxIMG from '../Components/Parallax';
 
-import img from '../Images/SitePhotos/IMG_8215.JPG';
 import styles from '../Styles/Registry.module.css';
 
 const Registry = (props) => {
