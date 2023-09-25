@@ -7,20 +7,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import img from '../Images/SitePhotos/M&M Logo.png';
 import RsvpButton from './Button';
 
-/* POTENTIAL COLORS?  
-SAGE -> #C1D0B5
-GOLD -> B08A50
-
-*/
-
 //classes
 const logoClasses = ` ${styles['logo']}`;
-const btnClasses = `${styles['btn']} ${styles['nav-link']}`;
 
 //Component
 const NavBar = (props) => {
   //STATE
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(
+    window.innerWidth > 850 ? true : false
+  );
   const [width, setWidth] = useState(window.innerWidth);
   const [navColor, setNavColor] = useState(false);
   // const [height, setHeight] = useState(window.innerHeight);
@@ -40,7 +35,7 @@ const NavBar = (props) => {
   });
 
   const changeColor = () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 100) {
       setNavColor(true);
     } else {
       setNavColor(false);
@@ -127,9 +122,6 @@ const NavBar = (props) => {
           </li>
           <li>
             <RsvpButton size='large' />
-            {/* <button className={btnClasses} type='button'>
-              RSVP
-            </button> */}
           </li>
         </ul>
         <MediaQuery maxWidth={850}>

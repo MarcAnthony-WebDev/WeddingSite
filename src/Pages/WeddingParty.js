@@ -6,7 +6,6 @@ import contacts from '../weddingPartyContacts';
 import Avatar from '../Components/Avatar';
 import Card from '../Components/Card';
 import ParallaxIMG from '../Components/Parallax';
-import img from '../Images/WeddingPartyPhotos/WeddingPartyCollage.jpg';
 
 const WeddingParty = (props) => {
   const createCard = (contact) => {
@@ -40,6 +39,7 @@ const WeddingParty = (props) => {
         {/* <p className={styles['contacts_heading']}>Meet the Wedding Party</p> */}
         {contacts.map(createCard)}
       </div>
+
       <Footer />
     </div>
   );

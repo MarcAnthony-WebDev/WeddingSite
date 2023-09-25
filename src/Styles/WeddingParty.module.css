@@ -12,9 +12,9 @@
 .headerImg {
   height: 70vh;
   width: 100%;
-  background-image: url(../Images/WeddingPartyPhotos/WeddingPartyCollage.jpg);
+  background-image: url(../Images/WeddingPartyPhotos/WeddingPartyCollage.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
   z-index: -1;
   font-family: 'Forum', sans-serif;
@@ -77,10 +77,20 @@ h3 {
     height: 60vh;
   }
 }
+@media (max-width: 900px) {
+  .headerImg {
+    height: 55vh;
+  }
+}
 
 @media (max-width: 800px) {
   .headerImg {
     height: 50vh;
+  }
+}
+@media (max-width: 700px) {
+  .headerImg {
+    height: 40vh;
   }
 }
 
@@ -90,8 +100,21 @@ h3 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .headerImg {
+    height: 30vh;
+  }
+  .headerImg h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
   .headerImg {
     height: 25vh;
+  }
+
+  .headerImg h2 {
+    font-size: 2.2rem;
   }
 }

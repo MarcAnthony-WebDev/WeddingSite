@@ -17,7 +17,7 @@ const Registry = (props) => {
             ideas, the links below will direct you to our registries.
           </p>
           <a
-            href='https://www.williams-sonoma.com/registry/vsdl55bkwj/registry-list.html'
+            href='https://www.target.com/gift-registry/gift/emmandemm'
             target='_blank'
             rel='noreferrer'
           >
@@ -31,7 +31,7 @@ const Registry = (props) => {
             William Sonoma
           </a>
           <a
-            href='https://www.williams-sonoma.com/registry/vsdl55bkwj/registry-list.html'
+            href='https://www.amazon.com/wedding/marissa-simone-marcanthony-tumminello-waveny-house-june-2024/registry/12QW5NLV3ERYT'
             target='_blank'
             rel='noreferrer'
           >
