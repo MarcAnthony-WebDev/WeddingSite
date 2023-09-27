@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import MediaQuery from 'react-responsive';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import MediaQuery from "react-responsive";
+import { Link } from "react-router-dom";
 
-import styles from './NavBar.module.css';
-import MenuIcon from '@mui/icons-material/Menu';
-import img from '../Images/SitePhotos/M&M Logo.png';
-import RsvpButton from './Button';
+import styles from "./NavBar.module.css";
+import MenuIcon from "@mui/icons-material/Menu";
+import img from "../Images/SitePhotos/M&M Logo.png";
+import RsvpButton from "./Button";
 
 //classes
-const logoClasses = ` ${styles['logo']}`;
+const logoClasses = ` ${styles["logo"]}`;
 
 //Component
 const NavBar = (props) => {
@@ -30,8 +30,8 @@ const NavBar = (props) => {
   };
 
   useEffect(() => {
-    window.addEventListener('resize', updateWidth);
-    return () => window.removeEventListener('resize', updateWidth);
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
   });
 
   const changeColor = () => {
@@ -42,7 +42,7 @@ const NavBar = (props) => {
     }
   };
 
-  window.addEventListener('scroll', changeColor, true);
+  window.addEventListener("scroll", changeColor, true);
 
   //handlers
   const handleClick = (e) => {
@@ -50,21 +50,21 @@ const NavBar = (props) => {
   };
 
   const styledImg = {
-    height: '20px',
+    height: "20px",
   };
 
   const styledHamburger = {
-    fontSize: '4.5rem',
-    position: 'absolute',
-    top: '2.25rem',
-    right: '1rem',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    cursor: 'pointer',
-    fill: 'var(--main-secondary-color)',
+    fontSize: "4.5rem",
+    position: "absolute",
+    top: "2.25rem",
+    right: "1rem",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    cursor: "pointer",
+    fill: "var(--main-secondary-color)",
 
-    transition: '.2s all',
+    transition: ".2s all",
   };
 
   return (
@@ -73,61 +73,61 @@ const NavBar = (props) => {
         navColor ? `${styles.nav} ${styles.navActive}` : `${styles.nav}`
       }
     >
-      <div className='nav-logo'>
-        <Link className={logoClasses} to='/'>
+      <div className="nav-logo">
+        <Link className={logoClasses} to="/">
           <img
             className={styledImg}
-            style={{ height: '7.5rem' }}
+            style={{ height: "7.5rem" }}
             src={img}
-            alt='M&M Logo'
+            alt="M&M Logo"
           />
         </Link>
       </div>
-      <div className='nav-container'>
+      <div className="nav-container">
         <ul
           style={{
-            display: isActive ? 'flex' : 'none',
+            display: isActive ? "flex" : "none",
           }}
-          className={styles['nav-list']}
+          className={styles["nav-list"]}
         >
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/OurStory'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/OurStory">
               Our Story
             </Link>
           </li>
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/TravelAndStay'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/TravelAndStay">
               Travel & Stay
             </Link>
           </li>
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/Registry'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/Registry">
               Registry
             </Link>
           </li>
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/Photos'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/Photos">
               Photos
             </Link>
           </li>
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/WeddingParty'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/WeddingParty">
               Wedding Party
             </Link>
           </li>
-          <li className={styles['nav-item']}>
-            <Link className={styles['nav-link']} to='/QAndA'>
+          <li className={styles["nav-item"]}>
+            <Link className={styles["nav-link"]} to="/QAndA">
               Q&A
             </Link>
           </li>
           <li>
-            <RsvpButton size='large' />
+            <RsvpButton size="large" />
           </li>
         </ul>
         <MediaQuery maxWidth={850}>
           <MenuIcon
             style={styledHamburger}
-            className={styles['hamburger']}
+            className={styles["hamburger"]}
             onClick={handleClick}
           />
         </MediaQuery>
