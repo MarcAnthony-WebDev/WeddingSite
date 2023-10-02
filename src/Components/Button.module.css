@@ -20,6 +20,7 @@
   transition: 0.3s all;
   margin: 0 0.5rem;
   box-shadow: 0.5rem -0.5rem 0.3rem rgb(0, 0, 0, 0.5);
+  z-index: 2;
 }
 
 .link {

@@ -9,7 +9,7 @@ import Footer from "./Components/Footer";
 import img from "./Images/SitePhotos/IMG_8185.JPG";
 
 function App() {
-  const headerText = `Marcanthony & Marissa`;
+  const headerText = `Marissa & Marcanthony`;
 
   return (
     <div className="App">

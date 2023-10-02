@@ -12,6 +12,8 @@
   transform: translate(-50%, -50%);
   padding: 0.5rem 2rem;
   color: white;
+  width: auto;
+  white-space: nowrap;
 
   font-size: 4rem;
   background-color: rgba(247, 231, 207, 0.75);
@@ -25,12 +27,12 @@
 
 @media (max-width: 650px) {
   .text-content {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 450px) {
   .text-content {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
