@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from '../Components/ScrollToTop';
 import PhotoGallery from '../Components/PhotoGallery';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
@@ -117,6 +118,7 @@ const Photos = () => {
         <PhotoGallery photoAlbum={photoAlbum} />
       </div>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

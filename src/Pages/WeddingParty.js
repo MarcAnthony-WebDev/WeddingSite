@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from '../Components/ScrollToTop';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import styles from '../Styles/WeddingParty.module.css';
@@ -41,6 +42,7 @@ const WeddingParty = (props) => {
       </div>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

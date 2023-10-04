@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from '../Components/ScrollToTop';
 
 import ParallaxIMG from '../Components/Parallax';
 import NavBar from '../Components/NavBar';
@@ -36,6 +37,7 @@ const RSVP = () => {
         </form>
       </div>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

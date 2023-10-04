@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollToTop from '../Components/ScrollToTop';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import ParallaxIMG from '../Components/Parallax';
@@ -117,6 +118,7 @@ const QAndA = (props) => {
       </div>
 
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

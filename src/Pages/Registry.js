@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from '../Components/ScrollToTop';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 
@@ -46,6 +47,7 @@ const Registry = (props) => {
         img={img}
       /> */}
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
