@@ -11,8 +11,9 @@ const Card = (props) => {
         <hr />
         <h3>{props.name}</h3>
         <p className={styles['role']}>{props.role}</p>
+        <p className={styles['intro']}>{props.intro}</p>
       </div>
-      <div className='bottom'></div>
+      {/* <div className='bottom'></div> */}
     </div>
   );
 };

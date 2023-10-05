@@ -63,6 +63,9 @@ const NavBar = (props) => {
     justifyContent: 'space-between',
     cursor: 'pointer',
     fill: 'var(--main-secondary-color)',
+    backgroundColor: 'var(--main-primary-color)',
+    borderRadius: '1rem',
+    boxShadow: '0 0 10px rgba(0,0,0,0.7)',
 
     transition: '.2s all',
   };

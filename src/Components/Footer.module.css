@@ -33,3 +33,9 @@ footer {
 .footer_link:hover {
   font-size: 1.7rem;
 }
+
+.credits {
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 0.5rem;
+}

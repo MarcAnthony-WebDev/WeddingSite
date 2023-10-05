@@ -8,6 +8,10 @@ import MediaCard from '../Components/HotelsCard';
 
 import styles from '../Styles/TravelAndStay.module.css';
 
+import imgMariott from '../Images/SitePhotos/MariottNorwalk.jpg';
+import imgZeroDegrees from '../Images/SitePhotos/ZeroDegrees.jpg';
+import imgEven from '../Images/SitePhotos/EvenHotel.jpg';
+
 const TravelAndStay = (props) => {
   return (
     <div className={styles.travelContainer}>
@@ -73,9 +77,10 @@ const TravelAndStay = (props) => {
       <section className={styles.hotels}>
         <div className={styles.hotelsDetails}>
           <MediaCard
-            title='Hotel A'
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum.'
-            image='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yrJhmX5_BJZCPIFs7zsgLAHaEo%26pid%3DApi&f=1&ipt=d6e061a6c5e87e17fd5d01fd78b8271dd5250e55115384a959d6d65abb1bda67&ipo=images'
+            title='Mariott Courtyard Norwalk (Room Block)'
+            description='This is our primary hotel for our wedding guests where we have rooms blocked off at reduced rates. This is also where the bride and groom will be staying as well as where the after party will be located.'
+            image={imgMariott}
+            link='https://www.marriott.com/event-reservations/reservation-link.mi?id=1696433261255&key=GRP&app=resvlink'
           />
           {/* <img
             className={styles.hotelsImage}
@@ -85,16 +90,18 @@ const TravelAndStay = (props) => {
         </div>
         <div className='hotelsDetails'>
           <MediaCard
-            title='Hotel A'
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum.'
-            image='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IpCX1v72AEsN1Y_4vYEN2gHaFj%26pid%3DApi&f=1&ipt=323a23ccad349b36c677224d9c312b9c147467b19617d5ed5334248fb08b7b99&ipo=images'
+            title='Hotel Zero Degrees Norwalk'
+            description='Hotel Zero Degrees is a chic boutique hotel located in Norwalk, Connecticut. The hotel is a mere 10 minutes from the venue and, by the time of our wedding, the hotel will be newly renovated.'
+            image={imgZeroDegrees}
+            link='https://hotelzerodegrees.com/hotels/norwalk/'
           />
         </div>
         <div className='hotelsDetails'>
           <MediaCard
-            title='Hotel A'
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum.'
-            image='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.wrEzj6LBryBKzdRdPzJcjQHaFj%26pid%3DApi&f=1&ipt=6ef01dfb16bdafe3b108c377617d1954ec358be9e6fc36eabd5684cb4c678ac6&ipo=images'
+            title='Even Hotel Norwalk'
+            description="Even Hotel Norwalk is a health and wellness-focused hotel. With its innovative fitness amenities, it's the perfect choice for guests who prioritize their well-being while traveling."
+            image={imgEven}
+            link='https://www.ihg.com/evenhotels/hotels/us/en/norwalk/orqev/hoteldetail'
           />
         </div>
       </section>

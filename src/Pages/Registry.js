@@ -38,14 +38,6 @@ const Registry = (props) => {
           </a>
         </div>
       </section>
-      {/* <ParallaxIMG
-        strength={400}
-        height={'80vh'}
-        content={
-          "You're presence is what matters most to us. If you're looking for gift ideas, the link below will direct you to our registry"
-        }
-        img={img}
-      /> */}
       <Footer />
       <ScrollToTop />
     </div>

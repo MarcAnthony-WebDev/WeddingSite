@@ -31,6 +31,11 @@
   color: var(--main-text-color);
 }
 
+.intro {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+}
+
 h3 {
   font-size: 2rem;
 }

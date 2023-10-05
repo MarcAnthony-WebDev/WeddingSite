@@ -17,6 +17,7 @@ const WeddingParty = (props) => {
         name={contact.name}
         role={contact.role}
         img={contact.imgURL}
+        intro={contact.intro}
       />
     );
   };
@@ -24,21 +25,20 @@ const WeddingParty = (props) => {
   return (
     <div className='contacts_main'>
       <NavBar />
-      {/* <ParallaxIMG
-        position={'center'}
-        // position={'30% 20%'}
-        content={'meet the wedding party'}
-        strength={600}
-        img={img}
-        height={'70vh'}
-      /> */}
+
       <header className={styles.headerImg}>
         <h2>Meet the Wedding Party!</h2>
       </header>
 
       <div className={styles['contacts_container']}>
-        {/* <p className={styles['contacts_heading']}>Meet the Wedding Party</p> */}
         {contacts.map(createCard)}
+        <div className={styles['contacts_bottom']}>
+          <p>A special thank you to the flower girls and ring bearers:</p>
+          <p>
+            Gemma Tumminello, Giovanna Clark, Lorenzo Tumminello and Nicholas
+            Santos.
+          </p>
+        </div>
       </div>
 
       <Footer />

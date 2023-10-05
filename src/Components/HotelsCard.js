@@ -29,11 +29,7 @@ export default function MediaCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button
-          endIcon={<ArrowRightAltIcon />}
-          href='https://mui.com/material-ui/api/button/'
-          size='small'
-        >
+        <Button endIcon={<ArrowRightAltIcon />} href={props.link} size='large'>
           Visit their site
         </Button>
       </CardActions>
