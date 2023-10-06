@@ -55,7 +55,7 @@ const data = [
   {
     question: 'Have you booked hotel room blocks for guests?',
     answer:
-      'Hotel room blocks have been reserved for our guests. Check the travel page for more information.',
+      'Hotel room blocks have been reserved for our guests at the Marriott Courtyard Hotel in Norwalk. Check the travel page for more information.',
   },
   {
     question:

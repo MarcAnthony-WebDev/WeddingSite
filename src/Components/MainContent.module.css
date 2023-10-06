@@ -1,4 +1,4 @@
-h2 {
+.main-container h2 {
   text-align: center;
   font-family: 'Forum';
   font-size: 4rem;
@@ -25,11 +25,10 @@ h3 {
   grid-template-rows: auto repeat(2, 50rem) auto;
   grid-gap: 4rem;
 }
-
+/* 
 .section-img {
-  /* grid-area: 2/4/4/8; */
-  height: 30rem;
-}
+  height: 100%;
+} */
 
 .section-1 {
   display: grid;
@@ -198,11 +197,11 @@ h3 {
   filter: brightness(0.95);
 }
 
-@media (orientation: landscape) and (min-width: 45rem) {
+/* @media (orientation: landscape) and (min-width: 45rem) {
   .imgContainer3Outer {
     height: 100vh;
   }
-}
+} */
 
 @media screen and (max-width: 1350px) {
   /*make this webpage responsive */
@@ -220,40 +219,43 @@ h3 {
     font-size: 1.8rem;
   }
 
-  .img-container1 img {
+  /* .img-container1Inner img {
     height: 40rem;
-  }
+  } */
 
-  .img-container2 img {
+  /* .img-container2Inner {
     grid-column: 2/10;
-    height: 35rem;
+  } */
+
+  .img-container1Outer,
+  .img-container2Outer {
+    max-width: 90vw;
   }
 
-  .imgContainer3Outer {
-    /* center this img*/
+  /* .imgContainer3Outer {
     grid-row: 4/5;
     grid-column: 2/16;
     display: block;
+  } */
+
+  .imgContainer3Outer {
+    height: 50rem;
   }
 }
 
-@media screen and (max-width: 75rem) {
+@media screen and (max-width: 750px) {
   .imgContainer3Outer {
-    height: 40vh;
+    height: 30rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .img-container1 img {
-    height: 30rem;
-  }
+  /* .img-container1Outer {
+    height: 20rem;
+  } */
 
   .img-container2 img {
     height: 30rem;
-  }
-
-  .imgContainer3Outer {
-    height: 30vh;
   }
 
   .mainBtn {
@@ -268,5 +270,14 @@ h3 {
 
   .img-container2 img {
     height: 25rem;
+  }
+
+  .imgContainer3Outer {
+    height: 20rem;
+  }
+
+  .mainBtn {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.6rem;
   }
 }

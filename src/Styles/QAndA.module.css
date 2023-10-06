@@ -25,6 +25,7 @@
   align-items: flex-start;
   cursor: pointer;
   font-family: 'Forum';
+  font-weight: 700;
 
   font-size: 2rem;
 }
@@ -37,12 +38,12 @@
 }
 
 .content {
-  color: var(--main-text-color);
   max-height: 0;
   overflow: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Forum', sans-serif;
   font-size: 2.8rem;
-  color: white;
+
+  color: #333;
 }
 
 .content.show {
@@ -53,7 +54,7 @@
 
 .link {
   font-size: 3rem;
-  color: white;
+  color: blue;
   font-family: 'Forum', sans-serif;
   transition: 0.3s all;
 }

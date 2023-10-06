@@ -143,9 +143,9 @@ iframe {
   margin: 0 1.5rem;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 800px) {
   .todo img {
-    height: 30rem;
-    width: 40rem;
+    height: 90%;
+    max-width: 90vw;
   }
 }

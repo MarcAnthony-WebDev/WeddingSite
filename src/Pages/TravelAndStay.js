@@ -77,7 +77,7 @@ const TravelAndStay = (props) => {
       <section className={styles.hotels}>
         <div className={styles.hotelsDetails}>
           <MediaCard
-            title='Mariott Courtyard Norwalk (Room Block)'
+            title='Marriott Courtyard Norwalk (Room Block)'
             description='This is our primary hotel for our wedding guests where we have rooms blocked off at reduced rates. This is also where the bride and groom will be staying as well as where the after party will be located.'
             image={imgMariott}
             link='https://www.marriott.com/event-reservations/reservation-link.mi?id=1696433261255&key=GRP&app=resvlink'
