@@ -68,7 +68,7 @@ iframe {
 
 .directionsImage img {
   height: 25rem;
-  width: calc(50% -1rem);
+  max-width: 90vw;
   border-radius: 0.5rem;
 }
 
@@ -85,7 +85,7 @@ iframe {
   justify-content: space-evenly;
   align-items: center;
   gap: 3rem;
-  width: calc(50% -1rem);
+  /* width: calc(50% -1rem); */
   padding: 4rem 0;
 }
 

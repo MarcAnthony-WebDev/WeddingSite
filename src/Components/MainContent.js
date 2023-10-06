@@ -51,8 +51,10 @@ const MainContent = (props) => {
         <div className={styles['text-container2']}>
           <h3>Reception</h3>
           <p>
-            Immediately following the ceremony the reception will be held on
-            site in the Waveny House Estate
+            Right after the ceremony, we're hosting the reception at Waveny
+            House Estate. It's the same location, so there's no need to travel.
+            We'll be continuing the celebration with good food, music, and lots
+            of fun as we start this exciting new chapter in our lives.
           </p>
         </div>
       </div>

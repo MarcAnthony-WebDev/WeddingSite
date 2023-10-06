@@ -9,7 +9,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export default function MediaCard(props) {
   return (
-    <Card sx={{ height: '45rem', width: '30rem' }}>
+    <Card sx={{ height: '45rem', width: '35rem' }}>
       <CardMedia
         sx={{ height: '25rem' }}
         src={props.src}

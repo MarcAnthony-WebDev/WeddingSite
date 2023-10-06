@@ -3,7 +3,7 @@
   font-family: 'Forum';
   font-size: 4rem;
   grid-row: 1;
-  grid-column: 6/12;
+  grid-column: 1/ -1;
   width: auto;
 }
 
@@ -46,7 +46,7 @@ h3 {
 }
 
 .img-container1Outer {
-  grid-column: 2/4;
+  grid-column: 2/6;
   grid-row: 2/4;
   border-radius: 1rem;
 }
@@ -67,7 +67,7 @@ h3 {
   align-self: center;
   justify-self: center;
   align-items: center;
-  grid-column: 12/15;
+  grid-column: 6/ -1;
   grid-row: 2/3;
 }
 
@@ -118,7 +118,7 @@ h3 {
   margin: 1rem 0;
   text-align: center;
 
-  width: 30rem;
+  width: 45rem;
   font-family: 'Lato';
   font-size: 2.5rem;
 }
