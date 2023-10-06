@@ -111,6 +111,7 @@ h3 {
 
 @media (max-width: 800px) {
   .headerImg {
+    /* padding: 10rem; */
     height: 50vh;
   }
 }

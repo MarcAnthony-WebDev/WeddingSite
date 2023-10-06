@@ -39,18 +39,18 @@ const OurStory = (props) => {
         <div className={`${styles.storyContent} ${styles.storyContentTop}`}>
           <h2>How we met</h2>
           <p>
-            Marissa and I met through mutual friends while out one night at the
-            Inn at Long Beach. Naturally, my proficient skills in breakdancing
-            culled her in my direction. "I wanna see what you got", she said to
-            me. We proceeded to dance the night away with intermediate moments
-            of myself hopping on stage to sing Red Hot Chili Peppers with the
-            talent that night.
+            Marissa and I met through mutual friends one night at the Inn at
+            Long Beach. Naturally, my proficient breakdancing skills drew her in
+            my direction. "I want to see what you've got," she said to me. We
+            proceeded to dance the night away, with occasional moments of me
+            hopping on stage to sing Red Hot Chili Peppers with the talent of
+            the evening.
           </p>
           <p>
-            Later that evening, I said to her, "If I don't get your number, I
-            will regret it for the rest of my life." Sure enough, a few days
-            later, I took Marissa on our first date, ice skating in Rockafeller
-            center.
+            Later that same evening, I confessed to her, "If I don't get your
+            number, I will regret it for the rest of my life." Sure enough, a
+            few days later, I took Marissa on our first date, ice skating in
+            Rockafeller center.
           </p>
         </div>
         <div className={styles.storyImagesContainer}>

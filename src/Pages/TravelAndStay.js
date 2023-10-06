@@ -82,11 +82,6 @@ const TravelAndStay = (props) => {
             image={imgMariott}
             link='https://www.marriott.com/event-reservations/reservation-link.mi?id=1696433261255&key=GRP&app=resvlink'
           />
-          {/* <img
-            className={styles.hotelsImage}
-            src=
-            alt=''
-          /> */}
         </div>
         <div className='hotelsDetails'>
           <MediaCard

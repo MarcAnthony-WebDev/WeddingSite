@@ -9,7 +9,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export default function MediaCard(props) {
   return (
-    <Card sx={{ height: '45rem', width: '35rem' }}>
+    <Card sx={{ height: '48rem', width: '30rem' }}>
       <CardMedia
         sx={{ height: '25rem' }}
         src={props.src}
@@ -29,7 +29,12 @@ export default function MediaCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button endIcon={<ArrowRightAltIcon />} href={props.link} size='large'>
+        <Button
+          target='_blank'
+          endIcon={<ArrowRightAltIcon />}
+          href={props.link}
+          size='large'
+        >
           Visit their site
         </Button>
       </CardActions>

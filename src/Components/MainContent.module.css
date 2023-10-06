@@ -261,11 +261,19 @@ h3 {
   .mainBtn {
     font-size: 2rem;
   }
+
+  .text-container2 p {
+    width: 35rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .img-container1 img {
     height: 25rem;
+  }
+
+  iframe {
+    width: 30rem;
   }
 
   .img-container2 img {
