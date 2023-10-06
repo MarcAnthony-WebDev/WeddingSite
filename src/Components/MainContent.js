@@ -61,7 +61,7 @@ const MainContent = (props) => {
           <div className={styles.imgContainer3Inner}>
             <a
               className={`${styles.mainBtn}`}
-              href='https://www.theknot.com/us/marissa-simone-and-marcanthony-tumminello-jun-2024/rsvp'
+              href='https://withjoy.com/marissa-and-marcanthony/rsvp'
               target='_blank'
               rel='noreferrer'
             >

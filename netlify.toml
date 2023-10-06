@@ -1,0 +1,7 @@
+# FILEPATH: /C:/Users/Owner/Desktop/Web Dev Files/WeddingSite/netlify.toml
+
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -9,7 +9,7 @@ const RsvpButton = (props) => {
       <button className={styles['btn']} type='button'>
         <a
           className={styles.link}
-          href='https://www.theknot.com/us/marissa-simone-and-marcanthony-tumminello-jun-2024/rsvp'
+          href='https://withjoy.com/marissa-and-marcanthony/rsvp'
           target='_blank'
           rel='noreferrer'
         >

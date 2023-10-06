@@ -40,7 +40,7 @@ const OurStory = (props) => {
           <h2>How we met</h2>
           <p>
             Marissa and I met through mutual friends while out one night at the
-            Inn at Long Beach. Naturaly, my proficient skills in breakdancing
+            Inn at Long Beach. Naturally, my proficient skills in breakdancing
             culled her in my direction. "I wanna see what you got", she said to
             me. We proceeded to dance the night away with intermediate moments
             of myself hopping on stage to sing Red Hot Chili Peppers with the
@@ -86,10 +86,10 @@ const OurStory = (props) => {
         <div className={`${styles.storyContent} ${styles.storyContentBottom}`}>
           <h2>Happily Ever After</h2>
           <p>
-            7 years later, after visiting numerous countries, enduring the the
-            likes of a pandemic, and battling every thing that might stand in
-            our way, I graciously proposed to the love of my life in Las Vegas
-            in June of 2022 amongst family.
+            7 years later, after traveling to numerous countries, enduring the
+            the likes of a pandemic, and battling every thing that might stand
+            in our way, I graciously proposed to the love of my life in Las
+            Vegas in June of 2022 amongst family.
           </p>
           <p></p>
         </div>
