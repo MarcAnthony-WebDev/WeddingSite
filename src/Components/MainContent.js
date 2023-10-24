@@ -2,8 +2,6 @@ import React from 'react';
 import img1 from '../Images/SitePhotos/IMG_7759.JPG';
 import img2 from '../Images/SitePhotos/IMG_7916.JPG';
 
-import bottomImg from '../Images/SitePhotos/IMG_8016.jpg';
-
 import RsvpButton from './Button';
 // import { Parallax } from 'react-parallax';
 
@@ -32,11 +30,11 @@ const MainContent = (props) => {
         </div>
         <div className={styles['text-container1']}>
           <h3>Arrival</h3>
-          <p>FRIDAY, JUNE 15, 2024 5:00 PM </p>
+          <p>Saturday, JUNE 15, 2024 4:00 PM </p>
           <hr />
           <p>Refreshments served</p>
           <hr />
-          <p>Ceremony to promptly start at 5:30 PM</p>
+          <p>Ceremony to promptly start at 4:30 PM</p>
         </div>
 
         <div className={`${styles['img-container2Outer']} ${styles['imgBox']}`}>

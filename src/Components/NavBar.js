@@ -47,6 +47,11 @@ const NavBar = (props) => {
   //handlers
   const handleClick = (e) => {
     setIsActive(() => (isActive ? false : true));
+    if (width > 100) {
+      setNavColor(true);
+    } else {
+      setNavColor(!navColor);
+    }
   };
 
   const styledImg = {

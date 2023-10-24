@@ -10,12 +10,14 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 export default function MediaCard(props) {
   return (
     <Card sx={{ height: '48rem', width: '30rem' }}>
-      <CardMedia
-        sx={{ height: '25rem' }}
-        src={props.src}
-        title='Hotel A'
-        image={props.image}
-      />
+      <a target='_blank' href={props.link} rel='noreferrer'>
+        <CardMedia
+          sx={{ height: '25rem' }}
+          src={props.src}
+          title='Hotel A'
+          image={props.image}
+        />
+      </a>
       <CardContent>
         <Typography gutterBottom variant='h5' component='div'>
           {props.title}
