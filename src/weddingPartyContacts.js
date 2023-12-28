@@ -1,6 +1,7 @@
-import img1 from './Images/WeddingPartyPhotos/RickyPic.jpg';
-import img2 from './Images/WeddingPartyPhotos/MatthewPic.jpg';
 import img3 from './Images/WeddingPartyPhotos/Caterina_pic.jpg';
+import img5 from './Images/WeddingPartyPhotos/KariPic.jpg';
+import img2 from './Images/WeddingPartyPhotos/MattPic.jpg';
+import img1 from './Images/WeddingPartyPhotos/RickyPic.jpg';
 import img4 from './Images/WeddingPartyPhotos/SamanthaPic.jpeg';
 const contacts = [
   {
@@ -47,8 +48,7 @@ const contacts = [
     id: 6,
     name: 'Kari Tumminello',
     role: 'Bridesmaid',
-    imgURL:
-      'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/287639141_500292418535149_8129703197939656096_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=174925&_nc_ohc=58aVkQnQKkQAX_OkWVX&_nc_ht=scontent-lga3-1.xx&oh=00_AfCPdBZRWGAQKDWuwdHULAspPt2DLUitSds7Lfpj-kRiIg&oe=64A29B88',
+    imgURL: img5,
     intro: 'Sister-in-law of the groom, an excellent teacher proud mother.',
   },
 ];

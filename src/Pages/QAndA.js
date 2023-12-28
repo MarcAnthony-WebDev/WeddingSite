@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import ScrollToTop from '../Components/ScrollToTop';
-import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
-import ParallaxIMG from '../Components/Parallax';
-import styles from '../Styles/QAndA.module.css';
 import AddIcon from '@mui/icons-material/Add';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Components/Footer';
+import NavBar from '../Components/NavBar';
+import ParallaxIMG from '../Components/Parallax';
+import ScrollToTop from '../Components/ScrollToTop';
+import styles from '../Styles/QAndA.module.css';
 
 import img from '../Images/SitePhotos/IMG_7987.JPG';
 
@@ -13,7 +13,7 @@ const data = [
   {
     question: 'What time should I arrive at the ceremony?',
     answer:
-      'All guests should arrive by 5:00 PM. Refreshments will be served and the ceremony will start promptly at 5:30 PM. Cocktail hour will immediately follow.',
+      'All guests should arrive by 4:00 PM. Refreshments will be served and the ceremony will start promptly at 4:30 PM. Cocktail hour will immediately follow.',
   },
   {
     question: 'What is the dress code?',
@@ -25,8 +25,14 @@ const data = [
   },
   {
     question: 'What is the best way to RSVP?',
-    answer:
-      'You can RSVP via either the RSVP on this site or text message. You can text us at (516)780-3419',
+    answer: (
+      <Link
+        to='https://withjoy.com/marissa-and-marcanthony/rsvp'
+        className={styles['link']}
+      >
+        Click here to RSVP
+      </Link>
+    ),
   },
   {
     question:
@@ -90,7 +96,7 @@ const QAndA = (props) => {
         <div className={styles.accordion}>
           {data.map((item, i) => {
             return (
-              <div className={styles.item}>
+              <div key={i} className={styles.item}>
                 <div className={styles.title} onClick={() => toggle(i)}>
                   <p>{item.question}</p>
                   <AddIcon

@@ -1,7 +1,7 @@
 import React from 'react';
-import ScrollToTop from '../Components/ScrollToTop';
-import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
+import NavBar from '../Components/NavBar';
+import ScrollToTop from '../Components/ScrollToTop';
 import styles from '../Styles/WeddingParty.module.css';
 import contacts from '../weddingPartyContacts';
 // import Avatar from '../Components/Avatar';

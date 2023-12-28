@@ -1,13 +1,13 @@
-import React from 'react';
-import ScrollToTop from '../Components/ScrollToTop';
-import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
-import ParallaxIMG from '../Components/Parallax';
-import img from '../Images/PhotosPage/IMG_7763.JPG';
-import styles from '../Styles/OurStory.module.css';
-import sideBarImg from '../Images/sideBarImage.png';
-import { Link } from 'react-router-dom';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Footer from '../Components/Footer';
+import NavBar from '../Components/NavBar';
+import ParallaxIMG from '../Components/Parallax';
+import ScrollToTop from '../Components/ScrollToTop';
+import img from '../Images/PhotosPage/IMG_7763.JPG';
+import sideBarImg from '../Images/sideBarImage.png';
+import styles from '../Styles/OurStory.module.css';
 
 import img1 from '../Images/OurStoryPhotos/IMG_9501.JPG';
 import img2 from '../Images/OurStoryPhotos/IMG_9502.JPG';
@@ -16,9 +16,9 @@ import img4 from '../Images/OurStoryPhotos/IMG_9504.jpg';
 import img5 from '../Images/OurStoryPhotos/IMG_9505.jpg';
 // import img6 from '../Images/OurStoryPhotos/IMG_9506.jpg';
 // import img7 from '../Images/OurStoryPhotos/IMG_9507.jpg';
+import img10 from '../Images/SitePhotos/IMG_9903.jpg';
 import img8 from '../Images/SitePhotos/IMG_9904.JPG';
 import img9 from '../Images/SitePhotos/IMG_9905.jpg';
-import img10 from '../Images/SitePhotos/IMG_9903.jpg';
 
 const OurStory = (props) => {
   return (
@@ -87,9 +87,9 @@ const OurStory = (props) => {
           <h2>Happily Ever After</h2>
           <p>
             7 years later, after traveling to numerous countries, enduring the
-            the likes of a pandemic, and battling every thing that might stand
-            in our way, I graciously proposed to the love of my life in Las
-            Vegas in June of 2022 amongst family.
+            likes of a pandemic, and battling every thing that might stand in
+            our way, I graciously proposed to the love of my life in Las Vegas
+            in June of 2022 amongst family.
           </p>
           <p></p>
         </div>
